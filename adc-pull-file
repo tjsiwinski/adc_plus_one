@@ -1,1 +1,0 @@
-Invoke-RestMethod -Uri "https://raw.githubusercontent.com/tjsiwinski/adc_plus_one/master/adc-test.ps1" -OutFile 'c:\rs-pkgs\ice\adc-test.ps1'
