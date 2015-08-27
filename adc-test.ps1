@@ -1,7 +1,7 @@
 $sMyLog=$MyInvocation.MyCommand.Definition +".txt"
 Add-Content $sMyLog "$(Get-Date) - *** Script start *** "
 Add-Content $sMyLog "Hello World"
-$InDevice= (Get-Content .\Output.json) -join "`n" | ConvertFrom-Json
+$InDevice= (Get-Content c:\rs-pkgs\ice\output.json) -join "`n" | ConvertFrom-Json
 Add-Content $sMyLog "Account: $($InDevice.Account)"
 Add-Content $sMyLog "AccountName: $($InDevice.'Account Name')"
 Add-Content $sMyLog "DC: $($InDevice.Datacenter)"
