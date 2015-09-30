@@ -1,4 +1,4 @@
-﻿#Invoke-RestMethod -Uri "https://raw.githubusercontent.com/tjsiwinski/adc_plus_one/master/adc-test.ps1" -OutFile 'c:\rs-pkgs\ice\adc-test.ps1'
+﻿##Invoke-RestMethod -Uri "https://raw.githubusercontent.com/tjsiwinski/adc_plus_one/master/adc-test.ps1" -OutFile 'c:\rs-pkgs\ice\adc-test.ps1'
 #Invoke-WebRequest -Uri "https://raw.githubusercontent.com/tjsiwinski/adc_plus_one/master/adc-test.ps1" -UseBasicParsing -OutFile 'c:\rs-pkgs\ice\adc-test.ps1' 
 
 param($AccountNum)
